@@ -55,11 +55,9 @@ linkedin_username: edwingeorge
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/edwin.jpeg
 about_content: | # this will include new lines to allow paragraphs Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>. 
   Hi! I'm an undergraduate student (Class of '21) at the University of California, Irvine pursuing a major in Computer Science with a minor in Business Management. 👨🏽‍🎓
-
-  I believe that hard-working people and new technology are fueling humanity to new heights, and I'm passionate about being a part of that movement. I'm always seeking opportunities to work on impactful and challenging problems with great teams.
 
   In my past experiences, I've worked with a broad range of technologies related to software engineering (machine learning, building a search engine, web frameworks) and even extending beyond (using Figma for product design, learning FFmpeg to edit videos, and applying market research to understand if a product is viable). 💻
 
@@ -106,20 +104,55 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: ZotFit Fitness
+        link: https://github.com/kevinwang0/ZotFit
+        link_text: ZotFit [Github]
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  Github
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/kevinwang0/ZotFit
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          A fitness application that adapts to a users body and recommends exercises to help them achieve their fitness goals
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - Utilized the Django Python framework and Python’s Pandas library to develop a recommendation system to help users get in shape by providing them with an adaptable workout routine
+          - Personalized application by taking into account various metrics (weight, height, age) of the user and determining what workouts would be best for them
+      - layout: left
+        title: ICS Search Engine
+        link: https://github.com/edwgeo
+        link_text: ICS Search Engine [Github]
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: https://github.com/edwgeo
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          A search engine built to parse and index sites hosted by UC Irvine's School of Information & Computer Science
+        description: | # this will include new lines to allow paragraphs
+          - Wrote a search engine capable of handling tens of thousands of documents or Web pages, under numerous operational constraints and having a query response time under 500ms
+          - Separated search index into numerous smaller pieces in order to account for and avoid excessive memory usage
+          - Used Python’s Flask framework to provide an online user interface which improved the search engine’s accessibility to users who are not familiar with the command line
+      - layout: left
+        title: Made with Play website
+        link: https://github.com/edwgeo
+        link_text: Made with Play [Github]
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: https://github.com/edwgeo
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          A website built as a digital hub for the Made with Play lab on campus
+        description: | # this will include new lines to allow paragraphs
+          - Designed and developed a responsive website for an on-campus lab with 5 other students using Python, Flask, and JavaScript to display all the various initiatives, members, and publications from the lab
+          - Organized the development of the project in accordance with Agile methodologies, using tools such as a Kanban board and splitting tasks into two-week long sprints. 
+
   - title: Education
     layout: list
     content:
@@ -139,14 +172,21 @@ content:
           - **Introduction to Databases:** The history, concepts, and design practices of relational databases
           - **Information Retrieval, Next-gen Search Systems:** How to extract or organize the vast ocean of information on the web, such as in search engines like Google
           - **Human-Computer Interaction, Software Design:** The process of designing applications for all kinds of humans
+      - layout: left
+        title: Bellarmine College Preparatory
+        sub_title: High School
+        caption: 2013 - 2017
+        quote: >
+          Bellarmine focuses on care for the individual student - challenging his intellectual, personal, and spiritual growth.
+        description: | # this will include new lines to allow paragraphs
+          *Activities and Societies:* Speech and Debate, Cross Country, Geography for Tomorrow
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      I believe that hard-working people and new technology are fueling humanity to new heights, and I'm passionate about being a part of that movement. I'm always seeking opportunities to work on impactful and challenging problems with great teams.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+      I'm happy to connect! Feel free to reach out to me over email or Linkedin and I'll try to get back as soon as possible.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
