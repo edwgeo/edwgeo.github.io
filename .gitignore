@@ -1,8 +1,2 @@
-*.gem
-.bundle
-.sass-cache
-_site
-*.code-workspace
-vendor
-.DS_Store
+
 .DS_Store
