@@ -6106,7 +6106,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  /*background-color: #000000 !important;*/
+  background-image: url("../assets/pattern.png");
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10076,6 +10077,22 @@ section {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 50%;
   }
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+    max-width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+.logo-link {
+  padding-right: 20px;
+}
+
+.link-container {
+  padding-top: 30px;
 }
